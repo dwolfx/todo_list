@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Note: Start 2:41am 03/03/17 -->
+<!-- Note: End 3:01am 03/03/17 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <section class="secHeader">
+            <h1>Trying to create a ToDo List</h1>
+        </section>
+    </header>
+    <section class="width">
+        <div class="wrapper">
+            <div class="title">ToDo List</div>
+            <div class="add">
+                <input type="text" name="item" id="newItem" placeholder="Item to add">
+                <button id="btnNew" onclick="newTask()">New Task
+                </button>
+            </div>
+            <div class="content">
+                <div class="list">
+                    <div class="content-text" id="item1">Item 01</div>
+                    <button id="mark">Done</button>
+                    <button id="remove">X</button>
+                </div>
+                <div class="list marked">
+                    <div class="content-text">Item 02</div>
+                    <button id="mark">Done</button>
+                    <button id="remove">X</button>
+                </div>
+                <div class="list">
+                    <div class="content-text">Item 03</div>
+                    <button id="mark">Done</button>
+                    <button id="remove">X</button>
+                </div>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

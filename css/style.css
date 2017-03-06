@@ -1,0 +1,112 @@
+/* Start 3:05am 03/03/17 */
+/* End 3:05am 03/03/17 */
+/* line 4, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  position: relative; }
+
+/* line 12, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+body {
+  width: 100vw;
+  height: 100%;
+  float: left; }
+  /* line 16, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+  body header {
+    width: 100%;
+    margin: 0 auto;
+    background: #ffaf44; }
+    /* line 20, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+    body header .secHeader {
+      padding: 2% 14%;
+      text-align: center; }
+      /* line 23, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+      body header .secHeader h1 {
+        font-size: 1.5em; }
+  /* line 28, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+  body .width {
+    width: 100%;
+    margin: 2.5% auto;
+    max-width: 980px; }
+    /* line 32, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+    body .width .wrapper {
+      margin: 0 5%;
+      position: relative; }
+      /* line 35, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+      body .width .wrapper .title {
+        text-align: center;
+        font-size: 2em;
+        background: #cacaca;
+        margin-bottom: 2.5%; }
+      /* line 41, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+      body .width .wrapper .add {
+        text-align: center;
+        padding: 2.5% 0;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2.5%;
+        float: left; }
+        /* line 48, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+        body .width .wrapper .add input[type="text"] {
+          width: 80%;
+          background: #d9d9d9;
+          float: left;
+          height: 30px;
+          padding: 2%;
+          color: #fff; }
+        /* line 56, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+        body .width .wrapper .add button {
+          width: 20%;
+          float: left;
+          height: 30px;
+          background: #b1afaf; }
+          /* line 61, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+          body .width .wrapper .add button:hover {
+            color: #fff; }
+      /* line 66, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+      body .width .wrapper .content {
+        float: left;
+        width: 100%; }
+        /* line 69, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+        body .width .wrapper .content .list {
+          width: 100%;
+          float: left;
+          margin: .2% 0; }
+          /* line 73, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+          body .width .wrapper .content .list .content-text {
+            width: 70%;
+            float: left;
+            background: #f9f9f9;
+            height: 20px;
+            padding: 0 2%; }
+          /* line 80, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+          body .width .wrapper .content .list #mark {
+            width: 15%;
+            float: left;
+            background: #00ff00;
+            height: 20px; }
+            /* line 85, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+            body .width .wrapper .content .list #mark:hover {
+              color: #fff; }
+          /* line 89, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+          body .width .wrapper .content .list #remove {
+            width: 15%;
+            float: left;
+            background: #ff0000;
+            height: 20px; }
+            /* line 94, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+            body .width .wrapper .content .list #remove:hover {
+              color: #fff; }
+          /* line 99, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+          body .width .wrapper .content .list.marked .content-text {
+            text-decoration: line-through;
+            background: #888787; }
+          /* line 103, C:/xampp/htdocs/testes/todo_list/css/style.scss */
+          body .width .wrapper .content .list.marked #mark {
+            background: blue;
+            color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

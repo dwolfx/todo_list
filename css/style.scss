@@ -1,0 +1,113 @@
+/* Start 3:05am 03/03/17 */
+/* End 3:05am 03/03/17 */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    float: left;
+    header{
+        width: 100%;
+        margin: 0 auto;
+        background: #ffaf44;
+        .secHeader {
+            padding: 2% 14%;
+            text-align: center;
+            h1{
+                font-size: 1.5em;
+            }
+        }
+    }
+    .width{
+        width: 100%;
+        margin: 2.5% auto;
+        max-width: 980px;
+        .wrapper {
+            margin: 0 5%;
+            position: relative;
+            .title{
+                text-align: center;
+                font-size: 2em;
+                background: #cacaca;
+                margin-bottom: 2.5%;
+            }
+            .add{
+                text-align: center;
+                padding: 2.5% 0;
+                width: 100%;
+                height: 100%;
+                margin-bottom: 2.5%;
+                float: left;
+                input[type="text"]{
+                    width: 80%;
+                    background: #d9d9d9;
+                    float: left;
+                    height: 30px;
+                    padding: 2%;
+                    color: #fff;
+                }
+                button{
+                    width: 20%;
+                    float: left;
+                    height: 30px;
+                    background: #b1afaf;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            }
+            .content{
+                float: left;
+                width: 100%;
+                .list{
+                    width: 100%;
+                    float: left;
+                    margin: .2% 0;
+                    .content-text{
+                        width: 70%;
+                        float: left;
+                        background: #f9f9f9;
+                        height: 20px;
+                        padding: 0 2%;
+                    }
+                    #mark{
+                        width: 15%;
+                        float: left;
+                        background: #00ff00;
+                        height: 20px;
+                        &:hover{
+                        color: #fff;
+                        }
+                    }
+                    #remove{
+                        width: 15%;
+                        float: left;
+                        background: #ff0000;
+                        height: 20px;
+                        &:hover{
+                        color: #fff;
+                        }
+                    }
+                    &.marked{
+                        .content-text{
+                            text-decoration: line-through;
+                            background: #888787;
+                        }
+                        #mark{
+                            background: blue;
+                            color: #fff;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
